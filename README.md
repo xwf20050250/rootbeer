@@ -1,5 +1,7 @@
 # RootBeer ![image](./app/src/main/res/mipmap-xhdpi/ic_launcher.png)
 
+[![RootBeer](https://www.appbrain.com/stats/libraries/shield/rootbeer.svg)](https://www.appbrain.com/stats/libraries/details/rootbeer/rootbeer)
+
 A tasty root checker library and sample app. We've scoured the internets for different methods of answering that age old question... **Has this device got root?**
 
 # Root checks
@@ -52,7 +54,7 @@ if (rootBeer.isRooted()) {
 }
 ```
 
-You can also call each of the checks individually as the sample app does.
+You can also call each of the checks individually as the sample app does. It is advisable to call `isRooted()` from a background thread as it involves disk I/O.
 
 ### False positives
 
