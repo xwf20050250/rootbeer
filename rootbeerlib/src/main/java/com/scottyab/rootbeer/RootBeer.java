@@ -32,6 +32,7 @@ public class RootBeer {
 
     public RootBeer(Context context) {
         mContext = context;
+        Const.Init();
     }
 
     /**
