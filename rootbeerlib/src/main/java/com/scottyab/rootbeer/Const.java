@@ -123,7 +123,7 @@ public final class Const {
      * @return List of paths to check, using a combination of a static list and those paths
      * listed in the PATH environment variable.
      */
-    static String[] getPaths(){
+    public static String[] getPaths(){
         ArrayList<String> paths = new ArrayList<>(Arrays.asList(suPaths));
 
         String sysPaths = System.getenv("PATH");
